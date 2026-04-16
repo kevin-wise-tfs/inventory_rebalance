@@ -1,6 +1,3 @@
-DECLARE @Today date = CAST(GETDATE() AS date);
-DECLARE @usagethreshold dec = 0.8;
-
 WITH master_branch AS (
     SELECT
         m.[SKU Source],
