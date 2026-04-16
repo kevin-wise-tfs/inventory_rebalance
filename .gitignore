@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Databricks / notebook noise
+.ipynb_checkpoints/
+
+# Local temp / OS
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+*.pem
+
+# Office temp files
+~$*.xlsx
+~$*.docx
